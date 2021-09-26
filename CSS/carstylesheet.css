@@ -1,0 +1,123 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .bgimg {
+        background-image: url("../Grain.jpg");
+        background-size: cover;
+        background-position: center;
+        /* background-attachment:; */
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        min-height: 625px;
+    }
+    
+    .background {
+        background-image: url("../Grain1.png");
+        background-color: #1b1b1b;
+        background-size: cover;
+        background-position: center;
+        /* background-attachment: ; */
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        min-height: 600px;
+        border-radius: 10px;
+    }
+    
+    .logo {
+        height: 60px;
+        width: 200px;
+    }
+    /* .navbar a {
+  font-size: ;
+ }  */
+    
+    hr.new {
+        width: 92%;
+        margin-left: 4%;
+        margin-top: -1%;
+        border: 1px solid red;
+    }
+    
+    .heading {
+        font-family: Queen Inline Grunge;
+        font-style: normal;
+        font-weight: strong;
+        font-size: 60px;
+        letter-spacing: 0.06em;
+    }
+    
+    .lefttext {
+        font-family: Avenir;
+        margin-left: 50px;
+        margin-top: -135px;
+    }
+    
+    .imgSlider {
+        text-align: center;
+    }
+    
+    img.car {
+        height: 450px;
+        width: 950px;
+        margin-top: -141px;
+        margin-left: -10%;
+    }
+    
+    .move {
+        margin-left: 178%;
+        margin-top: 40%;
+        /* place-items: end center */
+    }
+    
+    .button {
+        height: 40px;
+        width: 100px;
+    }
+    
+    .card {
+        margin-left: 170%;
+        margin-top: -74%;
+        width: 120px;
+        height: 150px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+    }
+    
+    .card img {
+        width: 120px;
+        text-align: center;
+        padding: 10px 10px;
+        background-position: center;
+    }
+    
+    .text {
+        text-align: start;
+        color: #1b1b1b;
+        font-style: Avenir;
+    }
+    
+    .arrow a {
+        color: #fff;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        margin-left: 25px;
+        border-radius: 50px;
+        font-size: 15px;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
